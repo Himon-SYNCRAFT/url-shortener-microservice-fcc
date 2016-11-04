@@ -1,15 +1,25 @@
 {
   "name": "url_shortener",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node index.js"
+    "start": "node index.js"
   },
   "author": "Daniel Zawłocki",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
-  }
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himon-SYNCRAFT/url-shortener-microservice-fcc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Himon-SYNCRAFT/url-shortener-microservice-fcc/issues"
+  },
+  "homepage": "https://github.com/Himon-SYNCRAFT/url-shortener-microservice-fcc#readme",
+  "description": ""
 }
